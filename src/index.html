@@ -56,7 +56,7 @@
   <script src="js/app.js"></script>
 
   <!-- Start of Woopra Code -->
-  <script>
+  <script type="text/plain" class="optanon-category-C0002">
     !function(){var t,o,c,e=window,n=document,r=arguments,a="script",i=["call","cancelAction","config","identify","push","track","trackClick","trackForm","update","visit"],s=function(){var t,o=this,c=function(t){o[t]=function(){return o._e.push([t].concat(Array.prototype.slice.call(arguments,0))),o}};for(o._e=[],t=0;t<i.length;t++)c(i[t])};for(e.__woo=e.__woo||{},t=0;t<r.length;t++)e.__woo[r[t]]=e[r[t]]=e[r[t]]||new s;(o=n.createElement(a)).async=1,o.src="https://static.woopra.com/js/w.js",(c=n.getElementsByTagName(a)[0]).parentNode.insertBefore(o,c)}("woopra");
 
     woopra.config({
@@ -70,18 +70,6 @@
   </script>
 <!-- End of Woopra Code -->
 
-<script>
-  function listCookies() {
-      var theCookies = document.cookie.split(';');
-      var aString = '';
-      for (var i = 1 ; i <= theCookies.length; i++) {
-          aString += i + ' ' + theCookies[i-1] + "\n";
-      }
-      console.log(document.cookie);
-      return aString;
-  }
-  listCookies()
-  </script>
 
 <!-- CookiePro Cookies List start -->
 <div id="ot-sdk-cookie-policy"></div>
