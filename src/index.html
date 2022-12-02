@@ -33,6 +33,17 @@
 function OptanonWrapper() { }
 </script>
 <!-- OneTrust Cookies Consent Notice end for demo1.funpi.cc -->
+
+
+<script>
+  function setCookie() {
+    const d = new Date();
+    d.setTime(d.getTime() + (1*24*60*60*1000));
+    let expires = "expires=" + d.toUTCString();
+    document.cookie = _myTestID + "=" + expires + ";" + expires + ";path=/";
+  }
+</script>
+
 <p>Privacy center 11111</p>
 
   <!-- Add your site or application content here -->
