@@ -41,6 +41,7 @@ function OptanonWrapper() { }
     d.setTime(d.getTime() + (1*24*60*60*1000));
     let expires = "expires=" + d.toUTCString();
     document.cookie = "_myTestID=ThisIsATestCookie;" + expires + ";path=/";
+    console.log(document.cookie);
   }
 </script>
 
@@ -73,6 +74,7 @@ function OptanonWrapper() { }
       for (var i = 1 ; i <= theCookies.length; i++) {
           aString += i + ' ' + theCookies[i-1] + "\n";
       }
+      console.log(document.cookie);
       return aString;
   }
   </script>
