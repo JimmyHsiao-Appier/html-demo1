@@ -66,10 +66,23 @@ function OptanonWrapper() { }
   </script>
 <!-- End of Woopra Code -->
 
+<script>
+  function listCookies() {
+      var theCookies = document.cookie.split(';');
+      var aString = '';
+      for (var i = 1 ; i <= theCookies.length; i++) {
+          aString += i + ' ' + theCookies[i-1] + "\n";
+      }
+      return aString;
+  }
+  </script>
 
 <!-- CookiePro Cookies List start -->
 <div id="ot-sdk-cookie-policy"></div>
 <!-- CookiePro Cookies List end -->
+
+
+
 </body>
 
 </html>
