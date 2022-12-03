@@ -42,11 +42,47 @@
     const d = new Date();
     d.setTime(d.getTime() + (1*24*60*60*1000));
     let expires = "expires=" + d.toUTCString();
-    document.cookie = "_myTestID=ThisIsATestCookie;" + expires + ";path=/";
+    document.cookie = "Performance=C0002;" + expires + ";path=/";
     console.log(document.cookie);
   }
   setCookie();
 </script>
+
+<script type="text/plain" class="optanon-category-C0003">
+  function setCookie() {
+    const d = new Date();
+    d.setTime(d.getTime() + (1*24*60*60*1000));
+    let expires = "expires=" + d.toUTCString();
+    document.cookie = "Functional=C0003;" + expires + ";path=/";
+    console.log(document.cookie);
+  }
+  setCookie();
+</script>
+
+<script type="text/plain" class="optanon-category-C0004">
+  function setCookie() {
+    const d = new Date();
+    d.setTime(d.getTime() + (1*24*60*60*1000));
+    let expires = "expires=" + d.toUTCString();
+    document.cookie = "Targeting=C0004;" + expires + ";path=/";
+    console.log(document.cookie);
+  }
+  setCookie();
+</script>
+
+
+<script type="text/plain" class="optanon-category-C0005">
+  function setCookie() {
+    const d = new Date();
+    d.setTime(d.getTime() + (1*24*60*60*1000));
+    let expires = "expires=" + d.toUTCString();
+    document.cookie = "SocialMedia=C0005;" + expires + ";path=/";
+    console.log(document.cookie);
+  }
+  setCookie();
+</script>
+
+
 
 <p>Privacy center 11111</p>
 
