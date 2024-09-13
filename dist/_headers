@@ -1,0 +1,5 @@
+# a path:
+/index.html
+  # headers for that path:
+  X-Frame-Options: Allow
+  #X-XSS-Protection: 1; mode=block
